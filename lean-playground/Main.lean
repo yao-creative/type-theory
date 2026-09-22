@@ -10,3 +10,5 @@ def double (n : Nat) : Nat :=
 
 #check double
 #eval double 21
+
+#eval double (double 21)
